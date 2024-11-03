@@ -1,0 +1,157 @@
+.Wrapper {
+    box-sizing: border-box;
+    background-color: #fef1e9;
+}
+
+.block33 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../../acsess/63f7127ea5360\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.block {
+    display: flex;
+    margin-top: -10rem;
+    justify-content: space-between;
+    padding: 0 100px 0 120px;
+    align-items: center;
+    width: 100%;
+    /* background-color: #fef1e9; */
+}
+
+.part1 {
+    width: 45%;
+}
+
+.card {
+    border-radius: 10px;
+    width: 85%;
+}
+
+select {
+    appearance: none;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    flex: 1;
+    padding: 0 1em;
+    color: #fff;
+    background-color: #f7ac7e;
+    background-image: none;
+    cursor: pointer;
+}
+
+/* Remove IE arrow */
+select::-ms-expand {
+    display: none;
+}
+
+/* Custom Select wrapper */
+.select {
+    position: relative;
+    display: flex;
+    width: 6em;
+    height: 2.4em;
+    border-radius: 0.25em;
+    overflow: hidden;
+}
+
+.select::after {
+    content: "\25BC";
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.3em 0.4rem 0.4rem;
+    background-color: #f7ac7e;
+    transition: 0.25s all ease;
+    pointer-events: none;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.select:hover::after {
+    color: white;
+}
+
+.title {
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #f7ac7e;
+    font-weight: bold;
+}
+
+.block_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card h2 {
+    width: 300px;
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #f7ac7e;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.parents {
+    display: flex;
+    justify-content: center;
+}
+
+.top_h {
+    background-color: #f0ebeb;
+    width: 100%;
+    padding: 30px 40px;
+    border-radius: 10px 10px 0 0;
+}
+
+.bottom_register {
+    padding: 20px 40px;
+    border-radius: 0 0 10px 10px;
+    background-color: #fefdfb;
+}
+
+.bottom_register select {
+    width: 100%;
+}
+
+.bottom_register label {
+    margin-bottom: 1rem;
+    color: #929292;
+}
+
+.bottom_register button {
+    background-color: #f7ac7e;
+    color: white;
+    margin-top: 1rem;
+    width: 200px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+.part2{
+    border: 2px solid red;
+    margin-top: 7rem;
+    width: 50%;
+}
+.logo_brand{
+    display: flex;
+    width: 100%;
+    border: 2px solid red;
+    align-items: center;
+    justify-content: space-between;
+}
+.img2{
+    width: 200px;
+}
+.img3{
+    width: 130px;
+    border: 2px solid red;
+}

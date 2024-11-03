@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:where(.css-dev-only-do-not-override-vryruh).ant-select-single {
+  width: 100% !important;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+:where(.css-dev-only-do-not-override-vryruh).ant-input:placeholder-shown {
+  margin-top: 5px;
+  margin-bottom: 10px;
+
+}
