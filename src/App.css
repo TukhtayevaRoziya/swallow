@@ -12,9 +12,9 @@
 .ant-input:placeholder-shown {
   margin-top: 5px;
   margin-bottom: 10px;
-
 }
 
-.ant-select.ant-select-outlined.css-vryruh.ant-select-single.ant-select-show-arrow.ant-select-show-search{
+.ant-select.ant-select-outlined.css-vryruh.ant-select-single.ant-select-show-arrow.ant-select-show-search {
   width: 100% !important;
+  margin: 0.4rem 0 0.5rem;
 }
