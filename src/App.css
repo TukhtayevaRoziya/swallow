@@ -3,13 +3,13 @@
   margin: 0;
 }
 
-:where(.css-dev-only-do-not-override-vryruh).ant-select-single {
+.ant-select.ant-select-outlined.css-dev-only-do-not-override-vryruh.ant-select-single.ant-select-show-arrow.ant-select-show-search {
   width: 100% !important;
   margin-top: 5px;
   margin-bottom: 10px;
 }
 
-:where(.css-dev-only-do-not-override-vryruh).ant-input:placeholder-shown {
+.ant-input:placeholder-shown {
   margin-top: 5px;
   margin-bottom: 10px;
 
