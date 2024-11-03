@@ -14,3 +14,7 @@
   margin-bottom: 10px;
 
 }
+
+.ant-select.ant-select-outlined.css-vryruh.ant-select-single.ant-select-show-arrow.ant-select-show-search{
+  width: 100% !important;
+}
