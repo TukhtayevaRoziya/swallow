@@ -125,17 +125,22 @@ select::-ms-expand {
     color: #929292;
 }
 
-.bottom_register button {
+.bottom_register a {
     background-color: #f7ac7e;
     color: white;
     margin-top: 1rem;
     width: 200px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: .5rem 0;
 }
 
 .button {
     display: flex;
     justify-content: center;
 }
+
 .part2{
     border: 2px solid red;
     margin-top: 7rem;

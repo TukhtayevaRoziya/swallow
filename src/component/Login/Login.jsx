@@ -1,15 +1,16 @@
 import React, { useState } from 'react'
 import style from "./Login.module.css"
 import i18n from "../../i18n";
-import { useTranslation } from "react-i18next";
-import { Select, Input, Button } from 'antd';
+// import { useTranslation } from "react-i18next";
+import { Select, Input } from 'antd';
 import logo from "../../acsess/Резервная_копия_22222.png"
 import logo2 from "../../acsess/icon.png"
+import { NavLink } from 'react-router-dom';
 
 const Login = () => {
     const defaultLang = localStorage.getItem("lang") || "uz";
     const [lang, setLang] = useState(defaultLang);
-    const { t } = useTranslation();
+    // const { t } = useTranslation();
 
     const handleChange = (event) => {
         setLang(event.target.value);
@@ -123,7 +124,7 @@ const Login = () => {
                             <label htmlFor="">Familyangiz</label>
                             <Input placeholder="Basic usage" />
                             <div className={style.button}>
-                                <Button>Tasdiqlash</Button>
+                                <NavLink to={'/home'}>Tasdiqlash</NavLink>
 
                             </div>
 
