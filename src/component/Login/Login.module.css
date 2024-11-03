@@ -16,7 +16,7 @@
     display: flex;
     margin-top: -10rem;
     justify-content: space-between;
-    padding: 0 100px 0 120px;
+    padding: 0 100px 3rem 120px;
     align-items: center;
     width: 100%;
     /* background-color: #fef1e9; */
@@ -142,14 +142,12 @@ select::-ms-expand {
 }
 
 .part2{
-    border: 2px solid red;
     margin-top: 7rem;
     width: 50%;
 }
 .logo_brand{
     display: flex;
     width: 100%;
-    border: 2px solid red;
     align-items: center;
     justify-content: space-between;
 }
@@ -158,5 +156,4 @@ select::-ms-expand {
 }
 .img3{
     width: 130px;
-    border: 2px solid red;
 }
