@@ -53,27 +53,27 @@ const Login = () => {
                                 options={[
                                     {
                                         value: '1',
-                                        label: 'Not Identified',
+                                        label: 'Andijon',
                                     },
                                     {
                                         value: '2',
-                                        label: 'Closed',
+                                        label: 'Fargona',
                                     },
                                     {
                                         value: '3',
-                                        label: 'Communicated',
+                                        label: 'Namangan',
                                     },
                                     {
                                         value: '4',
-                                        label: 'Identified',
+                                        label: 'Toshkent',
                                     },
                                     {
                                         value: '5',
-                                        label: 'Resolved',
+                                        label: 'Jizzax',
                                     },
                                     {
                                         value: '6',
-                                        label: 'Cancelled',
+                                        label: 'Surxandaryo',
                                     },
                                 ]}
                             />
