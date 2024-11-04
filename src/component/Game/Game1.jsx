@@ -40,6 +40,76 @@ const Game1 = () => {
         { id: 3, text: "110", isCorrect: false },
       ],
     },
+    {
+      text: "23 + 13 nimaga teng",
+
+      options: [
+        { id: 0, text: "65", isCorrect: false },
+        { id: 1, text: "36", isCorrect: true },
+        { id: 2, text: "34", isCorrect: false },
+        { id: 3, text: "34", isCorrect: false },
+      ],
+    },
+    {
+      text: "77 + 13 nimaga teng",
+
+      options: [
+        { id: 0, text: "22", isCorrect: false },
+        { id: 1, text: "99", isCorrect: false },
+        { id: 2, text: "90", isCorrect: true },
+        { id: 3, text: "45", isCorrect: false },
+      ],
+    },
+    {
+      text: "99- 13 nimaga teng",
+
+      options: [
+        { id: 0, text: "34", isCorrect: false },
+        { id: 1, text: "22", isCorrect: false },
+        { id: 2, text: "11", isCorrect: false },
+        { id: 3, text: "86", isCorrect: true },
+      ],
+    },
+    {
+      text: "22*2  nimaga teng",
+
+      options: [
+        { id: 0, text: "44", isCorrect: true },
+        { id: 1, text: "45", isCorrect: false },
+        { id: 2, text: "43", isCorrect: false },
+        { id: 3, text: "42", isCorrect: false },
+      ],
+    },
+    {
+      text: "23- 13 nimaga teng",
+
+      options: [
+        { id: 0, text: "10", isCorrect: true },
+        { id: 1, text: "11", isCorrect: false },
+        { id: 2, text: "12", isCorrect: false },
+        { id: 3, text: "13", isCorrect: false },
+      ],
+    },
+    {
+      text: "45- 13 nimaga teng",
+
+      options: [
+        { id: 0, text: "34", isCorrect: false },
+        { id: 1, text: "33", isCorrect: false },
+        { id: 2, text: "32", isCorrect: true },
+        { id: 3, text: "12", isCorrect: false },
+      ],
+    },
+    {
+      text: "72/2 nimaga teng",
+
+      options: [
+        { id: 0, text: "36", isCorrect: true },
+        { id: 1, text: "33", isCorrect: false },
+        { id: 2, text: "33", isCorrect: false },
+        { id: 3, text: "31", isCorrect: false },
+      ],
+    },
     // {
     //   text: "Mos belgini Tanlang",
     //   img: i4_0,
@@ -163,7 +233,7 @@ const Game1 = () => {
                     onClick={() => optionClicked(option.isCorrect)}
                   >
                     <h2>
-                    {option.text}
+                      {option.text}
                     </h2>
                   </li>
                 );

@@ -45,7 +45,7 @@ const Login = () => {
                             <Select
                                 showSearch
                                 style={{ width: 200 }}
-                                placeholder="Search to Select"
+                                placeholder="Viloyatni tanlang!"
                                 optionFilterProp="label"
                                 filterSort={(optionA, optionB) =>
                                     (optionA?.label ?? '').toLowerCase().localeCompare((optionB?.label ?? '').toLowerCase())

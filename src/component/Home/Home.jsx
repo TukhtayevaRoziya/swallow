@@ -10,26 +10,7 @@ const Home = () => {
     <div className={style.body}>
       <Header />
       <p className={style.txt}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nemo
-        id quibusdam ducimus magnam vitae obcaecati. Ipsum, in repudiandae
-        laboriosam, aliquam officia quaerat, eaque voluptatibus doloribus nam
-        doloremque ex quia? Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Quisquam nemo id quibusdam ducimus magnam vitae obcaecati. Ipsum,
-        in repudiandae laboriosam, aliquam officia quaerat, eaque voluptatibus
-        doloribus nam doloremque ex quia? Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Quisquam nemo id quibusdam ducimus magnam vitae
-        obcaecati. Ipsum, in repudiandae laboriosam, aliquam officia quaerat,
-        eaque voluptatibus doloribus nam doloremque ex quia? Lorem ipsum dolor
-        sit amet consectetur adipisicing elit. Quisquam nemo id quibusdam
-        ducimus magnam vitae obcaecati. Ipsum, in repudiandae laboriosam,
-        aliquam officia quaerat, eaque voluptatibus doloribus nam doloremque ex
-        quia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-        nemo id quibusdam ducimus magnam vitae obcaecati. Ipsum, in repudiandae
-        laboriosam, aliquam officia quaerat, eaque voluptatibus doloribus nam
-        doloremque ex quia? Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Quisquam nemo id quibusdam ducimus magnam vitae obcaecati. Ipsum,
-        in repudiandae laboriosam, aliquam officia quaerat, eaque voluptatibus
-        doloribus nam doloremque ex quia?
+      Maktabgacha ta'lim muassasasini bitiruvchi bolalarni maktabga tayyorlash holatini tekshiruvchi platformaning asosiy yutuqlari quyidagilardan iborat: individuallashtirilgan yondashuv, rivojlanishni diagnostika qilish va kuzatish, interaktiv va qiziqarli materiallar, keng qamrovli baholash, ota-onalar bilan faol hamkorlik, statistik va tahliliy hisobotlar, shuningdek, maktabga moslashishni yengillashtirish. Ushbu platforma bolalarning maktabga tayyorgarlik jarayonini samarali boshqarishga va o‘rganishga qiziqish uyg‘otishga yordam beradi.
       </p>
       <Main />
       <div className={style.footer}></div>

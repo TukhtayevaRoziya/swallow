@@ -145,6 +145,28 @@ const Game2 = () => {
         { id: 3, text: i8_4, isCorrect: true },
       ],
     },
+    {
+      text: "Mos belgini Tanlang",
+      img: i5_0,
+
+      options: [
+        { id: 3, text: i5_4, isCorrect: false },
+        { id: 0, text: i5_1, isCorrect: true },
+        { id: 1, text: i5_2, isCorrect: false },
+        { id: 2, text: i5_3, isCorrect: false },
+      ],
+    },
+    {
+      text: "Mos belgini Tanlang",
+      img: i4_0,
+
+      options: [
+        { id: 2, text: i4_3, isCorrect: false },
+        { id: 0, text: i4_1, isCorrect: true },
+        { id: 1, text: i4_2, isCorrect: false },
+        { id: 3, text: i4_4, isCorrect: false },
+      ],
+    },
   ];
 
   const optionClicked = (isCorrect) => {

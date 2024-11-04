@@ -14,28 +14,19 @@ const Main = () => {
       <div>
         <img src={i1} alt="" />
         <h1>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
-          tenetur consectetur nemo amet autem alias, maxime vero ea! Dignissimos
-          at accusamus quo aliquam rerum iusto ipsum deleniti dolorem illum
-          obcaecati.
+        Bolalarning intellektual salohiyatini aniqlash bo‘limining maqsadi - bolalarning mantiqiy fikrlash, muammolarni hal qilish qobiliyati, xotira, e'tibor va ijodiy fikrlash darajasini aniqlashdir. Ushbu bo‘lim orqali bola bilim va qobiliyatlari to‘liq baholanib, maktabga tayyorgarlik jarayonida ularga ko‘mak beriladi.
         </h1>
       </div>
       <div>
         <img src={i2} alt="" />
         <h1>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-          omnis! Fuga commodi animi qui tenetur dicta quibusdam, magnam illo,
-          quis vitae vel doloribus ipsa facilis eveniet beatae sapiente iusto
-          ullam?
+        Maxsus tayyorgarlik bo‘limining vazifasi -   bolalar o‘qish, yozish, hisoblash kabi asosiy bilimlarni va ijtimoiy ko‘nikmalarni mustahkamlaydi, shuningdek, jamoa bilan ishlash va muammolarni mustaqil hal qilish ko‘nikmalarini rivojlantiradi. Asosan turli fanlarga asoslangan testlar bo‘ladi, jumladan matematika va ona tili. Bu testlar bolalarning hisoblash qobiliyatini, savodxonlik va tahlil qilish ko‘nikmalarini baholashga yordam beradi.
         </h1>
       </div>
       <div>
         <img src={i3} alt="" />
         <h1>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-          accusantium dolor maxime neque beatae pariatur magni dolores, quas et
-          provident adipisci autem, sit soluta illum perferendis eius nostrum
-          inventore aperiam?
+        Shaxsiy ruhiy bo‘limining vazifasi - bolalarning ruhiy rivojlanishini qo‘llab-quvvatlash va ularga intellektual o‘sishni ta'minlovchi imkoniyatlarni yaratishdir. Bu bo‘limda bolalar rasmlarga asoslangan va intellektni oshiruvchi turli o‘yinlarni o‘ynaydi. o‘yinlar orqali bolalar e'tiborini kuchaytirish, tasavvurini rivojlantirish, ijodkorlik va fikrlash qobiliyatlarini oshirishga imkon yaratadi. Shaxsiy ruhiy rivojlanish bolalarning o‘ziga ishonchini mustahkamlash va o‘quv jarayoniga tayyorlashda muhim o‘rin tutadi.
         </h1>
       </div>
     </div>
