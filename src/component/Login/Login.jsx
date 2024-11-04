@@ -89,27 +89,23 @@ const Login = () => {
                                 options={[
                                     {
                                         value: '1',
-                                        label: 'Not Identified',
+                                        label: 'Oltinko`l',
                                     },
                                     {
                                         value: '2',
-                                        label: 'Closed',
+                                        label: 'Xonabot',
                                     },
                                     {
                                         value: '3',
-                                        label: 'Communicated',
+                                        label: 'Baliqchi',
                                     },
                                     {
                                         value: '4',
-                                        label: 'Identified',
+                                        label: 'Asaka',
                                     },
                                     {
                                         value: '5',
-                                        label: 'Resolved',
-                                    },
-                                    {
-                                        value: '6',
-                                        label: 'Cancelled',
+                                        label: 'Andijon ',
                                     },
                                 ]}
                             />
