@@ -111,13 +111,13 @@ const Login = () => {
                             />
                             <label htmlFor="">Familyangiz</label>
                             <Input placeholder="Basic usage" />
-                            <label htmlFor="">Familyangiz</label>
+                            <label htmlFor="">Ismingiz</label>
                             <Input placeholder="Basic usage" />
-                            <label htmlFor="">Familyangiz</label>
+                            <label htmlFor="">Tug`ilgan kuningiz</label>
                             <Input placeholder="Basic usage" />
-                            <label htmlFor="">Familyangiz</label>
+                            <label htmlFor="">Telefon raqamingiz</label>
                             <Input placeholder="Basic usage" />
-                            <label htmlFor="">Familyangiz</label>
+                            <label htmlFor="">Yashash manzilingiz</label>
                             <Input placeholder="Basic usage" />
                             <div className={style.button}>
                                 <NavLink to={'/home'}>Tasdiqlash</NavLink>

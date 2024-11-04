@@ -36,18 +36,15 @@ const Main = () => {
       </NavLink>
       <NavLink to={'/game_2'}>
 
-        Intelektuak
+       Maxsus tayyorgarlik
         </NavLink>
 
       <NavLink to={'/game_1'}>
 
-        Intelektuak
+      Shaxsiy (ruhiy psihalagik)
         </NavLink>
 
-      <NavLink to={'/game_2'}>
-
-        Intelektuak
-        </NavLink>
+     
 
       <NavLink to={'/game_1'}>
 
@@ -56,9 +53,12 @@ const Main = () => {
 
       <NavLink to={'/game_2'}>
 
-        Intelektuak
+      Jismoniy
         </NavLink>
+        <NavLink to={'/game_2'}>
 
+Intelektuak
+</NavLink>
     </div>
     </div>
   );
