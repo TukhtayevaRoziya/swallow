@@ -336,14 +336,22 @@ const Login = () => {
           </div>
         </div>
         <div className={style.part2}>
-          <div className={style.logo_brand}>
-            <img src={logo} className={style.img2} alt="" />
-            <img src={logo2} className={style.img3} alt="" />
-          </div>
-          <p>Bizning platformamizga xush kelibsiz!</p>
-          <p>Maktabga tayyorlik - Kelajak sari dastlabki qadam!</p>
-        </div>
-      </div>
+                    <div className={style.logo_brand}>
+                        <img src={logo} className={style.img2} alt="" />
+                        <img src={logo2} className={style.img3} alt="" />
+                    </div>
+                    <p>Bizning platformamizga xush kelibsiz!</p>
+                    <p>Maktabga tayyorlik - Kelajak sari dastlabki qadam!</p>
+                    <p>Maktabgacha ta'lim tashkilotini tamomlayotgan bolalarni maktabga tayyorgarlik darajasini baholash uchun mo‘ljallangan platformamiz bolalarning rivojlanishini kuzatish va ularni maktab hayotiga tayyorlashda samarali yordam beradi. Platforma orqali bolaning bilish qobiliyati, til ko‘nikmalari, matematik tushunchalari, ijtimoiy va emotsional rivojlanishi kabi sohalar keng qamrovli baholanadi. </p>
+                    <p>Platformamiz orqali:</p>
+                    <p>Bilim darajasini tahlil qilish: Bolalarning bilim darajasi va rivojlanish holatini aniq va sodda usullar bilan baholash mumkin.
+                        O‘zlashtirish darajasini kuzatish: O‘qituvchilar va ota-onalar bolalarining rivojlanishini interaktiv tarzda kuzatib borishlari va qaysi sohalarda qo‘shimcha yordam kerakligini aniqlashlari mumkin.
+                        Interaktiv o‘yinlar va mashqlar: Bolalarning o‘quv jarayonini qiziqarli va oson qiladigan interaktiv o‘yinlar va mashqlar orqali maktabga tayyorlash imkoniyati mavjud.</p>
+                    <p>Platformamiz O‘zbekiston milliy qadriyatlariga asoslangan bo‘lib, ta'lim jarayonini qiziqarli, rivojlantiruvchi va ma'rifatli qilishga yordam beradi. Bizning maqsadimiz - bolalarni maktab hayotiga muvaffaqiyatli kirib borishi uchun zarur bo‘lgan bilim va ko‘nikmalar bilan ta'minlashdir.</p>
+                    <p>Kelajakka tayyorgarlikni bugundan boshlang!</p>
+
+                </div>
+            </div>
     </div>
   );
 };
