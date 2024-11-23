@@ -59,7 +59,7 @@ const Game2 = () => {
 
   const questions = [
     {
-      text: "Mos belgini Tanlang",
+      text: "Mos belgini tanlang",
       img: i1_0,
       options: [
         { id: 0, text: i1_1, isCorrect: false },
@@ -69,7 +69,7 @@ const Game2 = () => {
       ],
     },
     {
-      text: "Mos belgini Tanlang",
+      text: "Mos belgini tanlang",
       img: i2_0,
 
       options: [
@@ -80,7 +80,7 @@ const Game2 = () => {
       ],
     },
     {
-      text: "Mos belgini Tanlang",
+      text: "Mos belgini tanlang",
       img: i3_0,
 
       options: [
@@ -91,7 +91,7 @@ const Game2 = () => {
       ],
     },
     {
-      text: "Mos belgini Tanlang",
+      text: "Mos belgini tanlang",
       img: i4_0,
 
       options: [
@@ -102,7 +102,7 @@ const Game2 = () => {
       ],
     },
     {
-      text: "Mos belgini Tanlang",
+      text: "Mos belgini tanlang",
       img: i5_0,
 
       options: [
@@ -113,7 +113,7 @@ const Game2 = () => {
       ],
     },
     {
-      text: "Mos belgini Tanlang",
+      text: "Mos belgini tanlang",
       img: i6_0,
 
       options: [
@@ -124,7 +124,7 @@ const Game2 = () => {
       ],
     },
     {
-      text: "Mos belgini Tanlang",
+      text: "Mos belgini tanlang",
       img: i7_0,
 
       options: [
@@ -135,7 +135,7 @@ const Game2 = () => {
       ],
     },
     {
-      text: "Mos belgini Tanlang",
+      text: "Mos belgini tanlang",
       img: i8_0,
 
       options: [
@@ -146,7 +146,7 @@ const Game2 = () => {
       ],
     },
     {
-      text: "Mos belgini Tanlang",
+      text: "Mos belgini tanlang",
       img: i5_0,
 
       options: [
@@ -157,7 +157,7 @@ const Game2 = () => {
       ],
     },
     {
-      text: "Mos belgini Tanlang",
+      text: "Mos belgini tanlang",
       img: i4_0,
 
       options: [
@@ -210,10 +210,10 @@ const Game2 = () => {
                 <span>To'g'ri </span> - {score} ta
               </h2>
               <h2>
-                <span>Noto'g'ri </span>- {questions.length - score} ta
+                <span>Noto'g'ri </span> <b style={{color:"red"}}> - {questions.length - score} ta</b> 
               </h2>
             </div>
-            <button onClick={() => restartGame()}>Boshqatdan boshlash</button>
+            <button style={{cursor:"pointer"}} onClick={() => restartGame()}>Boshqatdan boshlash</button>
           </div>
         ) : (
           <div className={style.question_card}>

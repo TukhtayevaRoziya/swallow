@@ -11,11 +11,110 @@ const Login = () => {
     const defaultLang = localStorage.getItem("lang") || "uz";
     const [lang, setLang] = useState(defaultLang);
     // const { t } = useTranslation();
+    const [districts, setDistricts] = useState([]);
+    const [selectedRegion, setSelectedRegion] = useState(null);
 
+    const regions = [
+        {
+          value: "andijon",
+          label: "Andijon",
+          districts: [
+            "Andijon tumani",
+            "Asaka tumani",
+            "Baliqchi tumani",
+            "Boʻston tumani",
+            "Buloqboshi tumani",
+            "Izboskan tumani",
+            "Jalaquduq tumani",
+            "Marhamat tumani",
+            "Oltinkoʻl tumani",
+            "Paxtaobod tumani",
+            "Qoʻrgʻontepa tumani",
+            "Shahrixon tumani",
+            "Ulugʻnor tumani",
+            "Xoʻjaobod tumani",
+          ],
+        },
+        {
+          value: "fargona",
+          label: "Fargʻona",
+          districts: [
+            "Margʻilon shahri",
+            "Qoʻqon shahri",
+            "Rishton tumani",
+            "Oltiariq tumani",
+            "Beshariq tumani",
+            "Dangʻara tumani",
+            "Fargʻona tumani",
+            "Quva tumani",
+            "Furqat tumani",
+            "Toshloq tumani",
+          ],
+        },
+        {
+          value: "namangan",
+          label: "Namangan",
+          districts: [
+            "Chortoq tumani",
+            "Toʻraqoʻrgʻon tumani",
+            "Namangan tumani",
+            "Kosonsoy tumani",
+            "Pop tumani",
+            "Uychi tumani",
+            "Yangiqoʻrgʻon tumani",
+          ],
+        },
+        {
+          value: "toshkent",
+          label: "Toshkent",
+          districts: [
+            "Bektemir tumani",
+            "Mirobod tumani",
+            "Yunusobod tumani",
+            "Mirzo Ulugʻbek tumani",
+            "Chilonzor tumani",
+            "Olmazor tumani",
+            "Sergeli tumani",
+            "Yashnobod tumani",
+            "Toshkent tumani",
+          ],
+        },
+        {
+          value: "jizzax",
+          label: "Jizzax",
+          districts: [
+            "Zarbdor tumani",
+            "Sharof Rashidov tumani",
+            "Doʻstlik tumani",
+            "Gʻallaorol tumani",
+            "Zafarobod tumani",
+            "Jizzax tumani",
+          ],
+        },
+        {
+          value: "surxondaryo",
+          label: "Surxondaryo",
+          districts: [
+            "Termiz shahri",
+            "Sherobod tumani",
+            "Jarqoʻrgʻon tumani",
+            "Uzun tumani",
+            "Boysun tumani",
+            "Shoʻrchi tumani",
+            "Denov tumani",
+            "Qumqoʻrgʻon tumani",
+          ],
+        },
+      ];
     const handleChange = (event) => {
         setLang(event.target.value);
         localStorage.setItem("lang", event.target.value);
         i18n.changeLanguage(event.target.value);
+    };
+    const handleRegionChange = (value) => {
+        const region = regions.find((region) => region.value === value);
+        setSelectedRegion(region.label);
+        setDistricts(region ? region.districts : []);
     };
     return (
         <div className={style.Wrapper}>
@@ -36,89 +135,50 @@ const Login = () => {
                                 </h1>
                             </div>
                             <div className={style.parents}>
-                                <h2>Ota-onalar malumotlarni to`ldirishda yordam beradi</h2>
+                                <h2>Ota-onalar ma'lumotlarni to'ldirishda yordam beradi</h2>
 
                             </div>
                         </div>
                         <div className={style.bottom_register}>
                             <label htmlFor="">Viloyat</label> <br />
+                    
+                          
                             <Select
                                 showSearch
-                                style={{ width: 200 }}
+                                style={{ width: 200, marginRight: 20 }}
                                 placeholder="Viloyatni tanlang!"
                                 optionFilterProp="label"
                                 filterSort={(optionA, optionB) =>
-                                    (optionA?.label ?? '').toLowerCase().localeCompare((optionB?.label ?? '').toLowerCase())
+                                    (optionA?.label ?? "").toLowerCase().localeCompare((optionB?.label ?? "").toLowerCase())
                                 }
-                                options={[
-                                    {
-                                        value: '1',
-                                        label: 'Andijon',
-                                    },
-                                    {
-                                        value: '2',
-                                        label: 'Fargona',
-                                    },
-                                    {
-                                        value: '3',
-                                        label: 'Namangan',
-                                    },
-                                    {
-                                        value: '4',
-                                        label: 'Toshkent',
-                                    },
-                                    {
-                                        value: '5',
-                                        label: 'Jizzax',
-                                    },
-                                    {
-                                        value: '6',
-                                        label: 'Surxandaryo',
-                                    },
-                                ]}
+                                options={regions.map((region) => ({
+                                    value: region.value,
+                                    label: region.label,
+                                }))}
+                                onChange={handleRegionChange}
                             />
-                            <label htmlFor="">shahar/tuman</label> <br />
+
+                            {/* Tumanlarni tanlash */}
+                            <label htmlFor="">Shahar/tuman</label> <br />
                             <Select
                                 showSearch
-                                style={{ width: 200 }}
-                                placeholder="Search to Select"
-                                optionFilterProp="label"
-                                filterSort={(optionA, optionB) =>
-                                    (optionA?.label ?? '').toLowerCase().localeCompare((optionB?.label ?? '').toLowerCase())
-                                }
-                                options={[
-                                    {
-                                        value: '1',
-                                        label: 'Oltinko`l',
-                                    },
-                                    {
-                                        value: '2',
-                                        label: 'Xonabot',
-                                    },
-                                    {
-                                        value: '3',
-                                        label: 'Baliqchi',
-                                    },
-                                    {
-                                        value: '4',
-                                        label: 'Asaka',
-                                    },
-                                    {
-                                        value: '5',
-                                        label: 'Andijon ',
-                                    },
-                                ]}
+                                style={{ width: 300 }}
+                                placeholder={selectedRegion ? `${selectedRegion} tumanlari` : "Viloyat tanlang"}
+                                disabled={!selectedRegion}
+                                options={districts.map((district) => ({
+                                    value: district,
+                                    label: district,
+                                }))}
                             />
                             <label htmlFor="">Familyangiz</label>
-                            <Input placeholder="Basic usage" />
+                            <Input />
                             <label htmlFor="">Ismingiz</label>
-                            <Input placeholder="Basic usage" />
+                            <Input />
                             <label htmlFor="">Tug`ilgan kuningiz</label>
-                            <Input placeholder="Basic usage" />
+                            <Input />
                             <label htmlFor="">Telefon raqamingiz</label>
-                            <Input placeholder="Basic usage" />
-                            <label htmlFor="">Yashash manzilingiz</label>
-                            <Input placeholder="Basic usage" />
+                            <Input />
+
                             <div className={style.button}>
                                 <NavLink to={'/home'}>Tasdiqlash</NavLink>
 

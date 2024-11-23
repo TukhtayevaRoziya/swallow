@@ -145,6 +145,9 @@ select::-ms-expand {
     margin-top: 13rem;
     width: 50%;
 }
+.part2 p{
+    margin-bottom: 0.5rem;
+}
 .logo_brand{
     display: flex;
     width: 100%;
