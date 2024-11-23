@@ -41,7 +41,7 @@ const Main = () => {
 
         <NavLink to={'/game_1'}>
 
-          Shaxsiy (ruhiy psiholagik)
+          Shaxsiy (ruhiy psixologik)
         </NavLink>
 
 
