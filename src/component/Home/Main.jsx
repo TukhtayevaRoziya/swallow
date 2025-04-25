@@ -39,7 +39,7 @@ const Main = () => {
           Maxsus tayyorgarlik
         </NavLink>
 
-        <NavLink to={'/game_1'}>
+        <NavLink to={'/game_4'}>
 
           Shaxsiy (ruhiy psixologik)
         </NavLink>
@@ -55,7 +55,7 @@ const Main = () => {
 
           Jismoniy
         </NavLink>
-        <NavLink to={'/game_2'}>
+        <NavLink to={'/game_3'}>
 
           Intelektual
         </NavLink>

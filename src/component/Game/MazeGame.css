@@ -1,0 +1,72 @@
+.maze-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #111;
+}
+
+.instruction {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.maze-grid {
+  position: relative;
+  margin: 0 auto;
+  border: 2px solid #222;
+  background-color: #eee;
+}
+
+.cell {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: white;
+  cursor: pointer;
+}
+
+.wall {
+  background-color: #333;
+  cursor: not-allowed;
+}
+
+.end {
+  background-color: red;
+}
+
+.player {
+  position: absolute;
+  background-color: limegreen;
+  transition: top 0.3s, left 0.3s;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  z-index: 2;
+  border: 2px solid green;
+}
+
+.message {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #007700;
+  font-weight: bold;
+}
+.message.win-message {
+  font-size: 24px;
+  font-weight: bold;
+  color: #28a745;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}

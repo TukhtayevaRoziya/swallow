@@ -1,0 +1,68 @@
+.match-game {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px 60px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 1;
+  }
+  
+  .right {
+    align-items: flex-end;
+  }
+  
+  .fruit {
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .fruit:hover {
+    transform: scale(1.1);
+  }
+  
+  .fruit.correct {
+    outline: 4px solid green;
+    border-radius: 10px;
+  }
+  
+  .fruit.wrong {
+    outline: 4px solid red;
+    border-radius: 10px;
+  }
+  
+  .game-canvas {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 0;
+    pointer-events: none;
+  }
+  
